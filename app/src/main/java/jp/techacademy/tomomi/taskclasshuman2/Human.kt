@@ -7,15 +7,12 @@ open class Human : Animal, Thinkable {
 //試1   open class Human(name: String, age: Int, hobby: String) : Animal, Thinkable {
 
 
-    var name: String
-    var age: Int
     var hobby: String
 
 
     // コンストラクタ
-    constructor(name: String, age: Int, hobby: String) : super(name, age, hobby) {
-        this.name = name
-        this.age = age
+    constructor(name: String, age: Int, hobby: String) : super(name, age) {
+
         this.hobby = hobby
     }
 //試2     this.name = ""

@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val human: Human = Human("tomomi", 24, "映画")
-        human.say()
-        human.think()
+        val human1: Human = Human("tomomi", 24, "映画")
+        human1.say()
+        human1.think()
 
 
         val human2: Human = Human("aya", 26, "ランニング")
